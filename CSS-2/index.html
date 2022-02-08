@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>CSS-Practice2</title>
+<style>
+body {
+    padding: 100px;
+    margin: 0;
+}
+.chickenwrap {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+
+    justify-content: space-between;
+    align-items: center;
+
+    border: 1px solid black;
+    padding: 1px;
+
+    height: 150px;
+    width: 100px
+}
+
+.porkwrap {
+    display: flex;
+    flex-wrap: wrap;
+
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+
+    border: 1px solid black;
+    margin-left: 1px;
+    padding: 1px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+
+    max-height: 150px;
+    width: 100px
+}
+
+.container{
+  display: flex;
+  flex-direction: row;
+}
+
+.smol-box {
+    border: 1px solid black;
+}
+
+.chonk-box {
+    border: 1px solid black;
+}
+
+.text {
+    border: 1px solid black;
+    font-family: "Brush Script MT",cursive;
+}
+
+
+</style>
+</head>
+<body>
+  <div class="container">
+    <div class="chickenwrap">
+      <div class="smol-box">
+        <p>Helou</p>
+      </div>
+      <div class="chonk-box">
+        <p>2+2=5</p>
+      </div>
+    </div>
+
+    <div class="porkwrap">
+       <div class="text"><p>jako fensy tekst</p></div>
+    </div>
+  </div>
+</body>
+</html>
